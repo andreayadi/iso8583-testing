@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #555;
+  box-sizing: border-box;
+  background-color: #69db7c;
+  position: relative;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70rem;
+  background-color: #d3f9d8;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.iso__message {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1rem 1rem;
+  height: 100px;
+}
+
+.data__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.data__name {
+  flex: 2 70px;
+}
+
+.data__value {
+  flex: 4;
+}
